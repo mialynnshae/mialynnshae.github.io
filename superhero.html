@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Superhero Table</title>
+      <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f0f0f0;
+            margin: 0;
+            padding: 0;
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 20px;
+        }
+
+        th, td {
+            padding: 10px;
+            text-align: left;
+            border-bottom: 1px solid #ddd;
+        }
+
+        th {
+            background-color: #4CAF50;
+            color: white;
+        }
+
+        tr:nth-child(even) {
+            background-color: #f2f2f2;
+        }
+
+        a {
+            display: block;
+            text-decoration: none;
+            color: inherit;
+        }
+
+        a:hover {
+            opacity: 0.8;
+        }
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<table>
+    <tr>
+        <th>Name</th>
+        <th>Alias</th>
+        <th>Image</th>
+        <th>Superpower</th>
+        <th>Weakness</th>
+    </tr>
+    <tr>
+        <td>Spiderman</td>
+        <td>Peter Parker</td>
+        <td><a href="https://example.com/batman-image"><img src="batman.jpg" alt="Batman" height="100"></a></td>
+        <td>Spider Powers, Intelligence</td>
+        <td>People he loves</td>
+    </tr>
+    <tr>
+      <td>Wonder Woman</td>
+        <td>Diana Prince</td>
+        <td><a href="https://example.com/wonder-woman-image"><img src="wonder_woman.jpg" alt="Wonder Woman" height="100"></a></td>
+        <td>Superhuman strength, agility, and reflexes</td>
+        <td>The Gods</td>
+    </tr>
+    <tr>
+         <td>Black Canary</td>
+        <td>Dinah Lance</td>
+        <td><a href="https://example.com/superman-image"><img src="superman.jpg" alt="Superman" height="100"></a></td>
+        <td>Sonic scream, hand-to-hand combat</td>
+        <td>Frequency inhibitors</td>
+    </tr>
+    <tr>
+        <td>Scarlet Witch</td>
+        <td>Wanda Maximoff</td>
+        <td><a href="https://example.com/spiderman-image"><img src="spiderman.jpg" alt="Spider-Man" height="100"></a></td>
+        <td>Matter manipulation, nuerological interfacing</td>
+        <td>Corruption</td>
+    </tr>
+</table>
+
+</body>
+</html>
