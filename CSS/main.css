@@ -8,7 +8,7 @@ body {
 
 @font-face {
     font-family: 'Gayathri-Thin';
-    src: url('https://github.com/mialynnshae/mialynnshae.github.io/blob/main/CSS/Gayathri-Thin.ttf') format('truetype');
+    src: url('path/to/Gayathri-Thin.ttf') format('truetype'); 
     font-weight: normal;
     font-style: normal;
 }
