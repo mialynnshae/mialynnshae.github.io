@@ -1,38 +1,32 @@
 
 body {
-    font-family: "Comic Sans MS", cursive, sans-serif;
-    background-color: #f0f0f0;
-    margin: 0;
-    padding: 0;
+    background-color: #f0f0f0; 
 }
 
-table {
-    width: 80%;
-    border-collapse: collapse;
-    margin-top: 20px;
+img {
+    width: 100%;
+    border-radius: 10px;
+    opacity: 0.8;
+    filter: grayscale(50%);
 }
 
-th, td {
-    padding: 10px;
-    text-align: left;
-    border-bottom: 1px solid #ddd;
+h1 {
+    color: #336699; 
+    font-size: 12px;
+    font-weight: bold;
+    text-decoration: underline;
 }
 
-th {
-    background-color: #ADD8E6;
-    color: white;
-}
-
-tr:nth-child(even) {
-    background-color: #f2f2f2;
+p {
+    font-family: Arial, sans-serif;
+    line-height: 1.5;
 }
 
 a {
-    display: block;
+    color: #ff6600;
     text-decoration: none;
-    color: inherit;
 }
 
 a:hover {
-    opacity: 0.8;
+    color: #cc3300; 
 }
