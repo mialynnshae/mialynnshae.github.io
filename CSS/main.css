@@ -45,8 +45,7 @@ a:hover {
 }
 
 img {
-    width: 100%; 
+    width: 20%; 
     border-radius: 10px; 
     opacity: 0.8; 
-    filter: grayscale(50%); 
 }
