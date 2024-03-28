@@ -10,13 +10,13 @@
   <form action="https://www.google.com/search" method="GET" target="_blank">
   <fieldset id="toplevelset">
     <div>
-      <label for+"searchbox">Search String</label>
+      <label for="searchbox">Search String</label>
       <input type="text" name="q" id="searchbox">
     </div>
     <div>
       <label for="site">Select a Site</label>
       <select name="as_sitesearch" id="site">
-        <option value>--All Websites--</option>
+        <option value="--All Websites--">--All Websites--</option>
         <option value="https://www.pinterest.com/">Pinterest</option>
         <option value="https://www.instagram.com/">Instagram</option>
         <option value="https://www.tiktok.com/en/">TikTok</option>
@@ -24,25 +24,25 @@
       </select>
     </div>
     <div>
-      <label for="phrase">Select a Site</label>
+      <label for="phrase">Select a Phrase</label>
       <select name="as_epq" id="phrase">
-        <option value>--All Websites--</option>
+        <option value="--All Phrases--">--All Phrases--</option>
         <option value="aesthetic">Aesthetic</option>
         <option value="beach">Beach</option>
-         <option value="pretty">Pretty</option>
+        <option value="pretty">Pretty</option>
       </select>
     </div>
     <p>
-      <label for="select aesthetic">Select an Aesthetic</label>
-      <select name="q" id="select aesthetic">
-        <option value="aesthetic activites">Aesthetic Activities</option>
+      <label for="selectaesthetic">Select an Aesthetic</label>
+      <select name="q" id="selectaesthetic">
+        <option value="aesthetic activities">Aesthetic Activities</option>
         <option value="beach">Beach</option>
         <option value="pretty pictures">Pretty Pictures</option>
-        <option value="putdoors">Outdoors</option>
+        <option value="outdoors">Outdoors</option>
       </select>
     </p>
     <p>
-      <input type="subimt" value="Search">
+      <input type="submit" value="Search">
     </p>
   </form>
 </body>
