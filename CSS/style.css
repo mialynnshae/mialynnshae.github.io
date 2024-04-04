@@ -1,0 +1,75 @@
+@font-face {
+    font-family: 'Gayathri-Thin';
+    src: url('path/to/https://github.com/mialynnshae/mialynnshae.github.io/blob/main/CSS/Gayathri-Thin.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+    text-align: center; 
+}
+
+nav {
+    background-color: #333; 
+    color: white; 
+    padding: 10px; 
+    text-align: center; 
+}
+
+nav h1 {
+    margin: 0; 
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0; 
+    padding: 0; 
+    text-align: center; 
+}
+
+nav ul li {
+    display: inline; 
+    margin-right: 20px;
+}
+
+nav ul li a {
+    color: white; 
+    text-decoration: none; 
+}
+
+section {
+    margin: 20px auto; 
+    text-align: left; 
+}
+
+section h2 {
+    color: #333; 
+}
+
+section ul {
+    list-style-type: none; 
+    padding: 0;
+    text-align: left; 
+}
+
+section ul li {
+    margin-bottom: 10px; 
+}
+
+section ul li span.date {
+    color: #888;
+}
+
+img {
+    display: block; 
+    margin: 0 auto; 
+    border-radius: 5px;
+}
+
+p {
+    margin: 10px 0; 
+    line-height: 1.5;
+    text-align: left; 
+}
