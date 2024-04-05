@@ -1,15 +1,17 @@
- @font-face {
-            font-family: 'Gayathri-Thin';
-            src: url('/Users/mialynndotson/Downloads/Gayathri') format('truetype');
-            font-weight: normal;
-            font-style: normal;
-        }
 
-        body {
-            margin: 5px;
-            padding: 5px;
-            text-align: center; 
-        }
+body {
+    font-family: "Gayathri-Thin", arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 0;
+    padding: 30px;
+}
+
+@font-face {
+    font-family: 'Gayathri-Thin';
+    src: url('path/to/https://github.com/mialynnshae/mialynnshae.github.io/blob/main/CSS/Gayathri-Thin.ttf') format('truetype'); 
+    font-weight: normal;
+    font-style: normal;
+}
 
         nav {
             background-color: #333; 
